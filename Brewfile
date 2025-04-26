@@ -10,7 +10,7 @@ brew "sass/sass/sass"
 brew "zsh"
 
 # GUI apps (cask)
-cask "amule" # non funziona
+# cask "amule" # non funziona
 cask "appcleaner"
 cask "bitwarden"
 cask "brave-browser"
