@@ -1,6 +1,3 @@
-[user]
-    name = antedoro
-	email = antedoro@gmail.com
 [core]
     editor = code --wait
 [init]
