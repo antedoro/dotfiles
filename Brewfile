@@ -41,7 +41,7 @@ cask "font-source-code-pro"
 cask "font-source-code-pro-for-powerline"
 # cask "font-source-sans-pro"
 cask "font-source-serif-4"
-cask "font-source-serif-pro"
+# cask "font-source-serif-pro"
 
 # Mac App Store apps
 mas "Brother iPrint&Scan", id: 1193539993
