@@ -1,0 +1,257 @@
+{
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.minimap.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.confirmSync": false,
+    "sync.gist": "28e7268ae7d6ba91d3e5f6019c2097cd",
+    "git.autofetch": true,
+    "workbench.colorCustomizations": {
+        "terminal.background":"#061229",
+        "terminal.foreground": "#C0C0C0",
+        "terminalCursor.background": "#C0C0C0",
+        "terminalCursor.foreground": "#C0C0C0",
+        "terminal.ansiBlack": "#ffffff",
+        "terminal.ansiBlue": "#0000D3",
+        "terminal.ansiBrightBlack": "#808080",
+        "terminal.ansiBrightBlue": "#0000D3",
+        "terminal.ansiBrightCyan": "#02ABEA",
+        "terminal.ansiBrightGreen": "#1FB714",
+        "terminal.ansiBrightMagenta": "#4700A5",
+        "terminal.ansiBrightRed": "#DD0907",
+        "terminal.ansiBrightWhite": "#FFFFFF",
+        "terminal.ansiBrightYellow": "#FBF305",
+        "terminal.ansiCyan": "#02ABEA",
+        "terminal.ansiGreen": "#1FB714",
+        "terminal.ansiMagenta": "#4700A5",
+        "terminal.ansiRed": "#DD0907",
+        "terminal.ansiWhite": "#C0C0C0",
+        "terminal.ansiYellow": "#FBF305",
+        "activityBarBadge.background": "#84FFFF",
+        "activityBar.activeBorder": "#84FFFF",
+        "list.activeSelectionForeground": "#84FFFF",
+        "list.inactiveSelectionForeground": "#84FFFF",
+        "list.highlightForeground": "#84FFFF",
+        "scrollbarSlider.activeBackground": "#84FFFF50",
+        "editorSuggestWidget.highlightForeground": "#84FFFF",
+        "textLink.foreground": "#84FFFF",
+        "progressBar.background": "#84FFFF",
+        "pickerGroup.foreground": "#84FFFF",
+        "tab.activeBorder": "#84FFFF",
+        "notificationLink.foreground": "#84FFFF",
+        "editorWidget.resizeBorder": "#84FFFF",
+        "editorWidget.border": "#84FFFF",
+        "settings.modifiedItemIndicator": "#84FFFF",
+        "settings.headerForeground": "#84FFFF",
+        "panelTitle.activeBorder": "#84FFFF",
+        "breadcrumb.activeSelectionForeground": "#84FFFF",
+        "menu.selectionForeground": "#84FFFF",
+        "menubar.selectionForeground": "#84FFFF",
+        "editor.findMatchBorder": "#84FFFF",
+        "selection.background": "#84FFFF40",
+        "statusBarItem.remoteBackground": "#84FFFF",
+    },
+    "workbench.preferredDarkColorTheme": "Cobalt2",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.columnSelection": false,
+    "editor.multiCursorModifier": "alt",
+    "materialTheme.accent": "Sky",
+    "editor.fontSize": 18,
+    "terminal.integrated.automationShell.osx": "zsh",
+    "terminal.external.linuxExec:": "iterm",
+    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+    "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.cursorStyle": "line",
+    "settingsSync.ignoredSettings": [
+    
+    
+        "terminal.external.osxExec"
+    ],
+    "workbench.sideBar.location": "left",
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "all",
+
+
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "red",
+        "background": "white",
+        "opacity": 50,
+        "iconColour": "blue"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "line"
+        },
+        "FIXME": {
+            "foreground": "black",
+            "iconColour": "yellow",
+            "gutterIcon": true
+        }
+    },
+      
+    "todo-tree.tree.showScanModeButton": false,
+
+    "todohighlight.exclude": [
+
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**"
+    ],
+    "todo-tree.general.tags": [
+        "XXX",
+        "TODO",
+        "HACK",
+        "FIXME",
+        "BUG",
+        "df"
+    ],
+    "diffEditor.renderSideBySide": false,
+    "editor.fontFamily": "Menlo for Powerline, Menlo, Monaco, 'Courier New', monospace",
+    "frontMatter.content.pageFolders": [],
+    "remote.SSH.defaultExtensions": [
+        "gitpod.gitpod-remote-ssh"
+    ],
+    "remote.SSH.configFile": "/var/folders/t4/qd5jr95d1_n613vl0kw15kb00000gn/T/gitpod_ssh_config-2902-H6vzjB4OYA0c",
+    "editor.fontLigatures": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.renderControlCharacters": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "python.languageServer": "Pylance",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "highlight.regexes": {
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#ffcc00",
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc0000",
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#00ccff",
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc00cc",
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f"
+                }
+            ]
+        }
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "python.insidersChannel": "off",
+    "editor.codeLensFontFamily": "Menlo",
+    "editor.codeLensFontSize": 14,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "chatgpt.lang": "en",
+    "git.enableSmartCommit": true,
+    "remote.SSH.remotePlatform": {
+        "*.gitpod.io": "linux"
+    },
+    "[yaml]": {
+        
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "diffEditor.ignoreTrimWhitespace": false
+    },
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "sqlite3-editor.telemetry": "allow",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    
+
+}
