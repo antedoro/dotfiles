@@ -1,7 +1,0 @@
-// Inserire in questo file i tasti di scelta rapida per eseguire l'override di quelli predefiniti
-[
-    {
-        "key": "cmd+i",
-        "command": "composerMode.agent"
-    }
-]
