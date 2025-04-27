@@ -31,15 +31,15 @@ NB: To install Brother iPrint&Scan be sure to make login App Store login before.
    chmod +x install.sh
    ./install.sh
 
-3. Configurazione post-installazione: 
-   - Dopo l'installazione, esegui 'p10k configure' per personalizzare il tuo prompt Powerlevel10k
-   - Approva eventuali estensioni del kernel richieste da applicazioni come LuLu
-   - Completa la configurazione manuale delle app che lo richiedono (Brother, ecc)
+3. Post-installation configuration:
+   - After installation, run 'p10k configure' to customize your Powerlevel10k prompt.
+   - Approve any kernel extensions requested by applications like LuLu.
+   - Complete the manual configuration of apps that require it (Brother, etc.).
 
    ```bash
    p10k configure
 
-4. Aggiornamento dei dotfile:
+4. Updating dotfiles:
    
    ```bash
    cd ~/dotfiles
@@ -68,7 +68,7 @@ Remove sensitive data from files:
    ```bash
    alias dotupdate="cd ~/dotfiles && git add . && git commit -m 'Update dotfiles' && git push"
 
+## Important Notes
 
-## Note importanti
-La prima esecuzione potrebbe richiedere molto tempo (30+ minuti) per scaricare e installare tutto
-Alcune app come Docker e LuLu richiedono riavvii o autorizzazioni manuali.
+The first run might take a long time (30+ minutes) to download and install everything.
+Some apps like Docker and LuLu require restarts or manual authorizations.
