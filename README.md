@@ -7,14 +7,12 @@ NB: To install Brother iPrint&Scan be sure to make login App Store login before.
 
 - Homebrew for package management
 - Oh My Zsh with Powerlevel10k theme
-- Mackup for application preferences backup
 - All essential apps preconfigured
 
 ## Manual Steps
 
 - Some apps might require manual setup after installation:
 - Brother iPrint&Scan: Follow manufacturer instructions
-- Binance: Download from official website
 - LuLu: Requires kernel extension approval
 
 ## Installation
@@ -25,6 +23,8 @@ NB: To install Brother iPrint&Scan be sure to make login App Store login before.
    git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
    cd ~/dotfiles
 
+   or copy project zip file from https://github.com/yourusername/dotfiles.git
+
 2. Run the installation script:
 
    ```bash
@@ -32,18 +32,14 @@ NB: To install Brother iPrint&Scan be sure to make login App Store login before.
    ./install.sh
 
 3. Configurazione post-installazione: 
-   - Dopo l'installazione, esegui p10k configure per personalizzare il tuo prompt Powerlevel10k
+   - Dopo l'installazione, esegui 'p10k configure' per personalizzare il tuo prompt Powerlevel10k
    - Approva eventuali estensioni del kernel richieste da applicazioni come LuLu
-   - Completa la configurazione manuale delle app che lo richiedono (Brother, Binance)
+   - Completa la configurazione manuale delle app che lo richiedono (Brother, ecc)
 
    ```bash
    p10k configure
 
-4. Backup delle preferenze:
-   Mackup salverà automaticamente le preferenze nella cartella *dotfiles/mackup*
-   Per aggiornare il backup: mackup backup
-
-5. Aggiornamento dei dotfile:
+4. Aggiornamento dei dotfile:
    
    ```bash
    cd ~/dotfiles
@@ -75,5 +71,4 @@ Remove sensitive data from files:
 
 ## Note importanti
 La prima esecuzione potrebbe richiedere molto tempo (30+ minuti) per scaricare e installare tutto
-Alcune app come Docker e LuLu richiedono riavvii o autorizzazioni manuali
-Per Binance dovrai scaricare manualmente l'app dal sito ufficiale in quanto non è disponibile su Homebrew
+Alcune app come Docker e LuLu richiedono riavvii o autorizzazioni manuali.

@@ -23,13 +23,12 @@ fi
 # Install everything from Brewfile
 brew bundle --file=./Brewfile
 
-
 # Install Oh My Zsh
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
   RUNZSH=no KEEP_ZSHRC=yes sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 fi
 
-# Install Powerlevel10k theme
+# Install Powerlevel10k theme for Oh My Zsh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # Install zsh plugins
@@ -46,40 +45,14 @@ rm -rf fonts
 # Get the directory where this script is located
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Copy config files to the home directory
+# Copy config gitconfig files to the home directory
+echo "Copying .gitconfig to home directory..."
+cp -f "$DOTFILES_DIR/.gitconfig" ~/.gitconfig
+
+# Copy config zsh config files to the home directory
 echo "Copying .zshrc and .p10k.zsh to home directory..."
 cp -f "$DOTFILES_DIR/.zshrc" ~/.zshrc
 cp -f "$DOTFILES_DIR/.p10k.zsh" ~/.p10k.zsh
 
-
-# # ... (previous installation steps: Homebrew, apps, etc.)
-
-# # Configure Mackup properly
-# echo "Configuring Mackup..."
-# MACKUP_DIR="$HOME/dotfiles/mackup"
-# mkdir -p "$MACKUP_DIR"
-
-# # Create Mackup config file
-# cat > ~/.mackup.cfg <<EOF
-# [storage]
-# engine = file_system
-# path = $HOME/dotfiles/mackup
-# EOF
-
-# # First backup existing settings (creates directory structure)
-# echo "Creating initial Mackup backup..."
-# mackup backup --force 2>/dev/null || true
-
-# # Then restore from our dotfiles
-# echo "Restoring preferences..."
-# mackup restore --force
-
-
-
-# Ensure Mackup uses our config
-# echo "[storage]
-# engine = file_system
-# path = dotfiles/mackup" > ~/.mackup.cfg
-# mackup restore # Restore preferences with Mackup
-
 echo "Installation complete! Please restart your terminal."
+echo "To customize prompt, run p10k configure or edit ~/.p10k.zsh"

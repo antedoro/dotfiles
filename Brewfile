@@ -4,7 +4,7 @@
 brew "git"
 brew "go"
 brew "hugo"
-brew "mackup"
+# brew "mackup" don't work on macos sonoma and later
 tap "sass/sass"
 brew "sass/sass/sass"
 # brew "python"
@@ -41,9 +41,7 @@ cask "font-powerline-symbols"
 cask "font-source-code-pro"
 cask "font-source-code-pro-for-powerline"
 cask "font-meslo-lg-nerd-font"
-# cask "font-source-sans-pro"
 cask "font-source-serif-4"
-# cask "font-source-serif-pro"
 
 # Mac App Store apps
 mas "Brother iPrint&Scan", id: 1193539993
