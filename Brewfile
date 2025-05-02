@@ -4,6 +4,7 @@
 brew "git"
 brew "go"
 brew "hugo"
+brew "gromgit/fuse/ntfs-3g-mac" #usefull for Mounty
 # brew "mackup" don't work on macos sonoma and later
 tap "sass/sass"
 brew "sass/sass/sass"
@@ -22,6 +23,7 @@ cask "iterm2"
 cask "localsend"
 cask "lulu"
 cask "macdown"
+cask "macfuse" #usefull for Mounty
 cask "monitorcontrol"
 cask "mounty"
 cask "obsidian"
