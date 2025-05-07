@@ -2,6 +2,7 @@
 
 # Install Xcode Command Line Tools
 if ! xcode-select --print-path &> /dev/null; then
+  echo "Xcode Command Line Tools not found. Installing..."
   xcode-select --install
   until xcode-select --print-path &> /dev/null; do
     sleep 5
@@ -47,12 +48,15 @@ DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Copy config gitconfig files to the home directory
 echo "Copying .gitconfig to home directory..."
-cp -f "$DOTFILES_DIR/.gitconfig" ~/.gitconfig
+cp -f "$DOTFILES_DIR/.gitconfig" $HOME/.gitconfig
 
 # Copy config zsh config files to the home directory
 echo "Copying .zshrc and .p10k.zsh to home directory..."
-cp -f "$DOTFILES_DIR/.zshrc" ~/.zshrc
-cp -f "$DOTFILES_DIR/.p10k.zsh" ~/.p10k.zsh
+cp -f "$DOTFILES_DIR/.zshrc" $HOME/.zshrc
+cp -f "$DOTFILES_DIR/.p10k.zsh" $HOME/.p10k.zsh
+
+# Set macOS preferences - we will run this last because this will reload the shell
+# source ./.macos
 
 echo "Installation complete! Please restart your terminal."
 echo "To customize prompt, run p10k configure or edit ~/.p10k.zsh"
