@@ -14,6 +14,7 @@ brew "zsh"
 # GUI apps (cask)
 # cask "amule" # non funziona
 cask "appcleaner"
+cask "applite"
 cask "bitwarden"
 cask "brave-browser"
 cask "docker"
@@ -27,6 +28,7 @@ cask "macfuse" #usefull for Mounty
 cask "monitorcontrol"
 cask "mounty"
 cask "obsidian"
+cask "pearcleaner"
 cask "syncthing"
 cask "telegram"
 cask "the-unarchiver"
