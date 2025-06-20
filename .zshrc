@@ -19,6 +19,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export EDITOR='code'
 
+# Start fastfetch when iTerm2.app starts 
+fastfetch
+
 # Aliases
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
