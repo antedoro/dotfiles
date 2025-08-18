@@ -2,6 +2,7 @@
 
 # CLI tools
 brew "git"
+brew install gemini-cli
 brew "go"
 brew "hugo"
 brew "gromgit/fuse/ntfs-3g-mac" #usefull for Mounty
@@ -17,6 +18,8 @@ cask "appcleaner"
 cask "applite"
 cask "bitwarden"
 cask "brave-browser"
+cask "coteditor" # Simple code/text editor
+cask "devtoys" # Collection of developer tools
 cask "docker"
 cask "firefox"
 cask "google-chrome"
@@ -29,6 +32,7 @@ cask "macfuse" #usefull for Mounty
 cask "monitorcontrol"
 cask "mounty"
 cask "obsidian"
+cask "optimage" # Image optimization
 cask "pearcleaner"
 cask "syncthing"
 cask "telegram"
