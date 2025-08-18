@@ -19,7 +19,6 @@ cask "applite"
 cask "bitwarden"
 cask "brave-browser"
 cask "coteditor" # Simple code/text editor
-cask "devtoys" # Collection of developer tools
 cask "docker"
 cask "firefox"
 cask "google-chrome"
