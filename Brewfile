@@ -11,6 +11,7 @@ tap "sass/sass"
 brew "sass/sass/sass"
 # brew "python"
 brew "zsh"
+brew "htmltest" # per testare siti statici come quelli generati da hugo
 
 # GUI apps (cask)
 # cask "amule" # non funziona
