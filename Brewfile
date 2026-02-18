@@ -5,6 +5,7 @@ brew "git"
 brew "gemini-cli"
 brew "go"
 brew "hugo"
+brew "fastfetch"
 brew "gromgit/fuse/ntfs-3g-mac" #usefull for Mounty
 # brew "mackup" don't work on macos sonoma and later
 tap "sass/sass"
