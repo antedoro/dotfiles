@@ -1,0 +1,48 @@
+# File generati dal sistema
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# File di backup e temporanei
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Directory da ignorare
+.cache/
+.trash/
+.tmp/
+
+# File di configurazione locale
+*.local
+.env
+.secret
+
+# File specifici di Mackup
+mackup/.mackup.cfg
+
+# File di log
+*.log
+
+# File di IntelliJ/IDE
+.idea/
+.vscode/
+*.iml
+
+# File di Oh My Zsh personalizzati (se presenti)
+.custom-zsh/
+
+# File di Powerlevel10k (se vuoi escluderli)
+.p10k.zsh
+
+# File di Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File di Go
+/bin/
+/pkg/
