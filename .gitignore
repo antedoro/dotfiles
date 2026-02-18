@@ -34,9 +34,6 @@ mackup/.mackup.cfg
 # File di Oh My Zsh personalizzati (se presenti)
 .custom-zsh/
 
-# File di Powerlevel10k (se vuoi escluderli)
-.p10k.zsh
-
 # File di Python
 __pycache__/
 *.pyc
