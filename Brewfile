@@ -15,8 +15,12 @@ brew "zsh"
 brew "htmltest" # per testare siti statici come quelli generati da hugo
 
 # Clipboard manager
-# tap "matthewpick/pesto-clipboard"
-# brew "pesto-clipboard"
+tap "matthewpick/pesto-clipboard"
+brew "pesto-clipboard"
+
+# Finder context menu
+tap "nikgrbn/tap"
+brew "finder-menu"
 
 # GUI apps (cask)
 # cask "amule" # non funziona

@@ -24,6 +24,12 @@ fi
 # Install everything from Brewfile
 brew bundle --file=./Brewfile
 
+# Enable Finder Menu
+if command -v finder-menu &> /dev/null; then
+  echo "Enabling Finder Menu extension..."
+  finder-menu enable
+fi
+
 # Install ImgCompress (macOS Silicon)
 if [ ! -d "/Applications/ImgCompress_Silicon.app" ] && [ "$(uname -m)" = "arm64" ]; then
   echo "Installing ImgCompress for macOS Silicon..."

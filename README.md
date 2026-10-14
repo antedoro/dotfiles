@@ -17,6 +17,7 @@ NB: To install Brother iPrint&Scan be sure to login to the App Store beforehand.
 - **Brother iPrint&Scan**: Follow manufacturer instructions after MAS installation.
 - **LuLu**: Requires kernel extension approval in System Settings.
 - **Docker**: Requires manual launch and initial setup.
+- **Finder Menu**: Approve the Finder extension in System Settings → General → Login Items & Extensions if prompted; configure options via `finder-menu settings`.
 
 ## Installation
 
