@@ -50,10 +50,9 @@ NB: To install Brother iPrint&Scan be sure to login to the App Store beforehand.
    
    ```bash
    cd ~/dotfiles
-   git add .
-   git commit -m "Update dotfiles"
-   git push origin main
+   ./push.sh "Descrizione modifiche"
    ```
+   *Se non specifichi un messaggio, verrà usato un commit message automatico con data e ora.*
 
 ## Important Security Check
 Before pushing changes:
@@ -63,6 +62,7 @@ Before pushing changes:
    ```bash
    grep -r "email\|password\|token\|secret" .
    ```
+   *(Nota: `push.sh` effettua già un controllo automatico di base per token e chiavi private).*
 
 2. Sanitize your gitconfig:
 
@@ -71,10 +71,12 @@ Before pushing changes:
    ```
 
 3. Automate Future Updates
-   Add this alias to your `.zshrc` (already included in the provided `.zshrc`):
+   Usa l'alias incluso nel `.zshrc` per eseguire l'upload da qualsiasi percorso:
 
    ```bash
-   alias dotupdate="cd ~/dotfiles && git add . && git commit -m 'Update dotfiles' && git push"
+   dotpush
+   # oppure con messaggio personalizzato:
+   dotpush "Mio messaggio di commit"
    ```
 
 ## Important Notes

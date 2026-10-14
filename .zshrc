@@ -55,6 +55,8 @@ export EDITOR='code'
 # Aliases
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
+alias dotpush="~/dotfiles/push.sh"
+alias dotupdate="~/dotfiles/push.sh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
